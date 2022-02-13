@@ -88,7 +88,7 @@ function toggleDone(key){
         if (ref) {
           toDoItems = JSON.parse(ref);
           toDoItems.forEach(t => {
-            renderTodo(t);
+            renderToDo(t);
           });
         }
       });
